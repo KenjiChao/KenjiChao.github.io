@@ -342,7 +342,7 @@
 	
 	.cv-section-title {
 		padding: 15px 0;
-		font-family: 'PT Sans', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 12px;
 		text-align: right;
 		text-transform: uppercase; 
@@ -370,7 +370,7 @@
 		position: absolute;
 		top: -10px;
 		left: 0;
-		font: 12px 'PT Sans', sans-serif;
+		font: 12px 'Roboto', sans-serif;
 	}
 	
 	.cv-section-title h3 {
