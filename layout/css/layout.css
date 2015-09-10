@@ -453,7 +453,8 @@
    ========================================================================== */
    	
 	#personal-profile { padding: 110px 0 80px 0; }
-	
+	#personal-profile .headline { margin-bottom: 40px; }
+
 	.personal-details { list-style: none; }
 	
 	.personal-details li {
