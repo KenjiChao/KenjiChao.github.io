@@ -549,8 +549,25 @@
 	
 	#skills .headline p span { background-color: #fff; }
 	
+	#skills .progress-bar-description {
+		font-size: 16px;
+	}
+
+	#skills .chart {
+		padding-left:20px;
+	}
+
+	#skills .pie-chart-custom-text span {
+		font-size: 16px;
+	}
+
 	.interests-list { list-style: none; }
 	
+	.interests-list i {
+		margin:0 auto; 
+		margin-bottom:25px;
+	}
+
 	.interests-list li {
 		position: relative;
 		float: left;
@@ -606,8 +623,8 @@
 		margin-bottom: 0; 
 	}
 	
-	.interests-list li:hover .interest-details { opacity: 1; }
-      
+/*	.interests-list li:hover .interest-details { opacity: 1; }
+*/      
 /* #Portfolio
    ========================================================================== */
    
@@ -618,10 +635,15 @@
 		background-color: #fff;
 	}
    
-   	#portfolio { padding: 110px 0 80px 0; }
+   	#portfolio { 
+   		padding: 110px 0 80px 0;
+   		background-color: #f6f6f6;
+   	}
 	
 	#portfolio .headline { margin-bottom: 40px; }
-   
+	
+	#portfolio .headline p span { background-color: #f6f6f6; }
+
     /* Isotope */
 	
 	.portfolio-items {
