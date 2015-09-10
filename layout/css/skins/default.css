@@ -799,14 +799,23 @@
 	
 	#references .headline p span { background-color: transparent; }
 
+/* #honors-and-awards
+   ========================================================================== */
+   
+   	#honors-and-awards { 
+		background-color: #f6f6f6;
+	}
+	
+	#honors-and-awards .headline p span { background-color: #f6f6f6; }
+
 /* #Skils
    ========================================================================== */
    
    	#skills { 
-		background-color: #f6f6f6;
+		background-color: #fff;
 	}
 	
-	#skills .headline p span { background-color: #f6f6f6; }
+	#skills .headline p span { background-color: #fff; }
 	
 	.interests-list li > p i {
 		border: 1px solid #252525;

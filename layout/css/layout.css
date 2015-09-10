@@ -478,6 +478,10 @@
 	
 	#work-experience .headline p span { background-color: #f6f6f6; }
 
+	#work-experience .cv-section-title p {
+		font-size: 16px;
+	}
+
 /* #Education
    ========================================================================== */
    
@@ -517,15 +521,33 @@
 	
 	#references .headline p span { background-color: transparent; }
 
+/* #honors-and-awards
+   ========================================================================== */
+   
+   	#honors-and-awards { 
+		padding: 110px 0 80px 0;
+		background-color: #f6f6f6;
+	}
+	
+	#honors-and-awards .headline p span { background-color: #f6f6f6; }
+	
+	#honors-and-awards .icon-box-content p { 
+		font-size: 16px; 
+	}
+
+	#honors-and-awards .icon-box-content {
+		background-color: #fafafa;
+	}
+
 /* #Skils
    ========================================================================== */
    
    	#skills { 
 		padding: 110px 0 80px 0;
-		background-color: #f6f6f6;
+		background-color: #fff;
 	}
 	
-	#skills .headline p span { background-color: #f6f6f6; }
+	#skills .headline p span { background-color: #fff; }
 	
 	.interests-list { list-style: none; }
 	
