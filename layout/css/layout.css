@@ -482,10 +482,22 @@
 		font-size: 16px;
 	}
 
+	#work-experience .cv-item p {
+		font-size: 16px;
+	}
+
 /* #Education
    ========================================================================== */
    
    	#education { padding: 110px 0 80px 0; }
+
+   	#education .cv-section-title p {
+		font-size: 16px;
+	}
+	
+	#education .cv-item p {
+		font-size: 16px;
+	}
 
 /* #References
    ========================================================================== */
@@ -653,7 +665,7 @@
 	
 	.portfolio-items li {
 		float: left;
-		width: 33.3333333333%;
+		width: 25%;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 				box-sizing: border-box;
@@ -695,6 +707,7 @@
 	}
 			
 	.portfolio-item-overlay-actions .portfolio-item-zoom,
+	.portfolio-item-overlay-actions .portfolio-item-custom,
 	.portfolio-item-overlay-actions .portfolio-item-link {
 		position: absolute;
 		top: 28%;
@@ -715,16 +728,18 @@
 	
 	.portfolio-item-overlay-actions .portfolio-item-zoom { left: 0; }
 	.portfolio-item-overlay-actions .portfolio-item-link { right: 0; }
-	
+	.portfolio-item-overlay-actions .portfolio-item-custom { left: 0; }
+
 	.portfolio-item-overlay-actions .portfolio-item-zoom:hover,
+	.portfolio-item-overlay-actions .portfolio-item-custom:hover,
 	.portfolio-item-overlay-actions .portfolio-item-link:hover { background-color: rgba(0, 0, 0, 0.8); }
-					
+
 	.portfolio-item-description { 
 		position: absolute;
 		right: 0; 
 		bottom: -60px; 
 		left: 0;
-		padding: 25px;
+		padding: 16px;
 		background-color: #fff; 
 		color: #000; 
 		text-align: center; 
@@ -734,7 +749,7 @@
 				transition: all 0.5s;
 	}
 	
-	.portfolio-item-description h3 { 
+	.portfolio-item-description h3 h5 { 
 		margin-bottom: 0;
 		text-transform: uppercase;
 	}
@@ -759,11 +774,18 @@
 	.portfolio-item:hover .portfolio-item-overlay-actions .portfolio-item-zoom { 
 		left: 50%;
 		margin-left: -55px;
+		margin-top: -15px;
 	}
 	
 	.portfolio-item:hover .portfolio-item-overlay-actions .portfolio-item-link { 
 		right: 50%;
 		margin-right: -55px;
+		margin-top: -15px;
+	}
+
+	.portfolio-item:hover .portfolio-item-overlay-actions .portfolio-item-custom { 
+		left: 50%;
+		margin-left: -55px;
 	}
 				
 	/* Portfolio Pagination */
