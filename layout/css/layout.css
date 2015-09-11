@@ -494,7 +494,7 @@
    	#education .cv-section-title p {
 		font-size: 16px;
 	}
-	
+
 	#education .cv-item p {
 		font-size: 16px;
 	}
@@ -847,7 +847,11 @@
    	
 	#contact { padding-bottom: 110px; }
 	#contact.parallax { margin-bottom: 0; }
-	#contact .headline { margin-bottom: 80px; }
+	#contact .headline { margin-bottom: 40px; }
+	#contact a { 
+		color: #fff;
+		font-size: 19px;
+	 }
    
    	/* Contact Info */
 	
